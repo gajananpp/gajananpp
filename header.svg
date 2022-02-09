@@ -1,17 +1,19 @@
 <svg viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <style type="text/css">
-      svg {
+      html, body{
         height: 100%;
-        width: 100%;
+        font-weight: 800;
       }
-
-      html,body {
-        height: 100%;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        background-color: #000;
+      svg {
+        font-family: Helvetica, sans-serif;
+      }
+      svg {
+        display: block;
+        font: 10.5em 'Helvetica';
+        width: 960px;
+        height: 300px;
+        margin: 0 auto;
       }
 
 
