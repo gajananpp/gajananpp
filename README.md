@@ -1,2 +1,3 @@
-<!-- ![Click! Clack!](header.svg)
- -->
+![Click! Clack!](header.png)
+
+#### 🐞 Debugging
