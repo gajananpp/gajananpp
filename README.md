@@ -1,1 +1,2 @@
-![Click! Clack!](header.svg)
+<!-- ![Click! Clack!](header.svg)
+ -->
