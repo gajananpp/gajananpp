@@ -2,72 +2,71 @@
   <defs>
     <style type="text/css">
       svg {
+        height: 100%;
+        width: 100%;
+      }
 
-    height: 100%;
-    width: 100%;
-  }
-
-  html,body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #000;
-  }
+      html,body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+      }
 
 
-  .textc {
-    /*position: absolute;
-    z-index: 10;*/
-    fill: none;
-    /*stroke: rgb(255,255,255);*/
-    stroke-dasharray: 8% 29%;
-    stroke-dashoffset: 0%;
-    stroke-width: 5px;
-    font-size: 200px;
-    font-family: Josefin Slab,Arial,Sans-serif;
-    -webkit-animation: move 5s infinite linear;
-  }
+      .textc {
+        /*position: absolute;
+        z-index: 10;*/
+        fill: none;
+        /*stroke: rgb(255,255,255);*/
+        stroke-dasharray: 8% 29%;
+        stroke-dashoffset: 0%;
+        stroke-width: 5px;
+        font-size: 200px;
+        font-family: Josefin Slab,Arial,Sans-serif;
+        -webkit-animation: move 5s infinite linear;
+      }
 
-  #layer-2 {
-    position: absolute;
-    z-index: 1000;
-    background: transparent;
-  }
+      #layer-2 {
+        position: absolute;
+        z-index: 1000;
+        background: transparent;
+      }
 
-  .textc:nth-child(1) {
-    stroke: rgb(0,135,68);
-    animation-delay: -1s;
-  }
+      .textc:nth-child(1) {
+        stroke: rgb(0,135,68);
+        animation-delay: -1s;
+      }
 
-  .textc:nth-child(2) {
-    stroke: rgb(0,87,231);
-    animation-delay: -2s;
-  }
+      .textc:nth-child(2) {
+        stroke: rgb(0,87,231);
+        animation-delay: -2s;
+      }
 
-  .textc:nth-child(3) {
-    stroke: rgb(214,45,32);
-    animation-delay: -3s;
-  }
+      .textc:nth-child(3) {
+        stroke: rgb(214,45,32);
+        animation-delay: -3s;
+      }
 
-  .textc:nth-child(4) {
-    stroke: rgb(255,167,0);
-    animation-delay: -4s;
-  }
+      .textc:nth-child(4) {
+        stroke: rgb(255,167,0);
+        animation-delay: -4s;
+      }
 
-  .textc:nth-child(5) {
-    stroke: rgb(255,255,255);
-    animation-delay: -5s;
-  }
+      .textc:nth-child(5) {
+        stroke: rgb(255,255,255);
+        animation-delay: -5s;
+      }
 
-  @-webkit-keyframes move {
-    80% {
-      stroke-dashoffset: -35%;
-    }
-    100% {
-      stroke-dashoffset: -90%;
-    }
-  }
+      @-webkit-keyframes move {
+        80% {
+          stroke-dashoffset: -35%;
+        }
+        100% {
+          stroke-dashoffset: -90%;
+        }
+      }
     </style>
   </defs>
   <symbol id="welcome">
